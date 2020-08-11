@@ -1,4 +1,4 @@
 Django==3.1
 psycopg2==2.6.1
-decouple==3.3
+python-decouple==3.3
 pillow==7.2.0

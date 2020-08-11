@@ -33,9 +33,8 @@ We now need to install all the libraries and technologies that appear in the fil
 
 `(env) $ pip install -r requirements.txt`
 
-if you find a error message reagards decouple or importing config, go to `django-travello/Nikhil/settings.py`
-and manually delete below code.
-'from decouple import config'
+if anycase you find a error message reagards decouple or importing config, go to `django-travello/Nikhil/settings.py`and manually delete below code
+`from decouple import config`
 
 if all works well,You should see a success message similar to this at the bottom of the Terminal window:
 
